@@ -1,0 +1,152 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header */
+
+header {
+    margin: 0px 0px 48px;
+    color: #707678;
+}
+
+.margin-left {
+    margin: 0px 100px;
+}
+
+.education {
+    margin: 30px 0px;
+}
+
+.title {
+    margin: 0px 0px 25px;
+}
+
+.contact {
+    margin: 0px 0px 14px;
+    color: #707678;
+}
+
+h1 {
+    color: #000000;
+    font-size: 28px;
+    margin: 0px 0px 24px;
+    text-transform: uppercase;
+}
+
+span,
+p {
+    color: #323336;
+    font-size: 16px;
+}
+
+.bio {
+    margin: 0px 0px 7px;
+}
+
+/* Body */
+
+.lil-box {
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: rgb(51, 211, 153);
+    height: 50px;
+    width: 40px;
+    padding: 6px 0px;
+    position: absolute;
+    top: 5%;
+    border-radius: 5px;
+}
+
+.lil-box div {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+}
+
+body {
+    background: #E4EBF1;
+    margin: 0px 0px 10px;
+    padding: 60px 120px;
+    box-sizing: border-box;
+}
+
+main {
+    background: #fff;
+    padding: 60px;
+    border-radius: 5px;
+    position: relative;
+}
+
+section {
+    margin: 30px 100px;
+}
+
+
+span.sec-title {
+    font-size: 12px;
+    color: #C1C5C7;
+    text-transform: uppercase;
+}
+
+.job {
+    font-size: 18px;
+    font-weight: bold;
+    color: #323336;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    margin: 32px 0px 14px;
+}
+
+.emp-info {
+    margin: 0px 0px 7px;
+}
+
+.job-des {
+    margin: 0px 0px 8px;
+    color: #323336;
+}
+
+ul.job-duties li {
+    font-size: 16px;
+    color: #323336;
+    margin: 0px 0px 10px 30px;
+}
+
+.grey-text {
+    font-size: 16px;
+    color: #707678;
+}
+
+.skill {
+    margin: 0px;
+    padding: 0px;
+}
+
+.skill li {
+    padding: 5px 18px;
+    background: rgb(241, 245, 247);
+    font-size: 14px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0px 3px 12px 0px;
+    font-weight: 300;
+}
+
+/* Pseudo-class */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:active {
+    color: #C1C5C7;
+}
+
+a:hover {
+    color: #707678;
+}
