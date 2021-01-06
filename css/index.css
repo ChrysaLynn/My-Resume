@@ -92,10 +92,13 @@ span.sec-title {
 .job {
     font-size: 18px;
     font-weight: bold;
-    color: #323336;
     text-transform: uppercase;
     letter-spacing: 0.07em;
     margin: 32px 0px 14px;
+}
+
+.job a {
+    color: #323336;
 }
 
 .emp-info {
@@ -150,3 +153,5 @@ a:active {
 a:hover {
     color: #707678;
 }
+
+/* Media Queries */
