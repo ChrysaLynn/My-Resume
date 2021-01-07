@@ -156,3 +156,28 @@ a:hover {
 }
 
 /* Media Queries */
+
+@media (max-width: 400px) {
+    .lil-box {
+        display: none;
+    } 
+    .margin-left {
+        margin: 0px 15px;
+    }
+    .job-duties {
+        padding: 0;
+    }
+}
+
+/* @media only screen and (min-width: 414px) 
+    and (max-width: 736px){ 
+}
+
+@media only screen and (min-width: 414px) 
+    and (max-width: 736px) and (orientation: portrait) { 
+
+}
+
+@media only screen and (min-width: 414px) 
+    and (max-width: 736px) and (orientation: landscape) { 
+} */
