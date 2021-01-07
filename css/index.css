@@ -157,27 +157,27 @@ a:hover {
 
 /* Media Queries */
 
-@media (max-width: 400px) {
+
+/* ..
+Here goes all the universal styles (styles you want on both mobile and desktop) 
+.. */
+
+@media only screen and (max-width: 767px) {
+    body {
+        padding: 30px 60px;
+        overflow: hidden;
+    }
+    main {
+        padding: none;
+    }
     .lil-box {
         display: none;
-    } 
-    .margin-left {
-        margin: 0px 15px;
     }
-    .job-duties {
-        padding: 0;
-    }
+    
 }
 
-/* @media only screen and (min-width: 414px) 
-    and (max-width: 736px){ 
-}
-
-@media only screen and (min-width: 414px) 
-    and (max-width: 736px) and (orientation: portrait) { 
-
-}
-
-@media only screen and (min-width: 414px) 
-    and (max-width: 736px) and (orientation: landscape) { 
+/* @media only screen and (min-width: 768px) {
+    ...
+    ...
+    Here is where _only_ the **desktop** specific styling goes
 } */
