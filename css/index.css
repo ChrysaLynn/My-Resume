@@ -1,5 +1,6 @@
 * {
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
 }
 
 /* Header */
@@ -97,7 +98,7 @@ span.sec-title {
     margin: 32px 0px 14px;
 }
 
-.job a, 
+.job a,
 .contact a {
     color: #323336;
 }
@@ -157,27 +158,32 @@ a:hover {
 
 /* Media Queries */
 
-
-/* ..
-Here goes all the universal styles (styles you want on both mobile and desktop) 
-.. */
-
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     body {
-        padding: 30px 60px;
-        overflow: hidden;
+        padding: 0;
     }
-    main {
-        padding: none;
+
+    .margin-left {
+        margin: 0;
     }
+
     .lil-box {
         display: none;
     }
-    
-}
 
-/* @media only screen and (min-width: 768px) {
-    ...
-    ...
-    Here is where _only_ the **desktop** specific styling goes
-} */
+    .job-duties {
+        padding: 0;
+    }
+
+    main {
+        padding: 30px;
+    }
+
+    .contact {
+        line-height: 23px;
+    }
+
+    .job-des {
+        line-height: 23px;
+    }
+}
